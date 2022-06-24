@@ -1,0 +1,8 @@
+version: v1
+name: buf.build/haunt98/googleapis
+breaking:
+  use:
+    - FILE
+lint:
+  use:
+    - DEFAULT

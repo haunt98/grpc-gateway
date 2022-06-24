@@ -1,0 +1,11 @@
+version: v1
+name: buf.build/haunt98/grpc-gateway
+build:
+  excludes:
+    - examples
+breaking:
+  use:
+    - FILE
+lint:
+  use:
+    - DEFAULT
